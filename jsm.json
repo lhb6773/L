@@ -1,60 +1,60 @@
 {
-	"spider":"./pg.jar",
-	"sites":[
+	"蜘蛛":"./pg.jar",
+	"站点":[
 		{
-			"key": "豆瓣",
-			"name": "豆瓣",
-			"type": 3,
-			"api": "csp_Douban",
-			"searchable": 0,
-			"changeable": 1,
-			"indexs":1,
-			"ext": "./lib/douban.json"
+			"键":"豆瓣",
+			"名称":"豆瓣",
+			"类型":3,
+			"api":"csp_豆瓣",
+			"可搜索":0,
+			"可更改":1,
+			"索引":1,
+			"外部":"./lib/douban.json"
 		},
 		{
-			"key": "网盘配置",
-			"name": "网盘及彈幕配置",
-			"type": 3,
-			"api": "csp_Config",
-			"searchable": 0,
-			"changeable": 0,
-			"ext":"./lib/tokenm.json"
+			"键":"网盘配置",
+			"名称":"网盘及弹幕配置",
+			"类型":3,
+			"api":"csp_Config",
+			"可搜索":0,
+			"可更改":0,
+			"外部":"./lib/tokenm.json"
 		},
-		{"key":"Local","name":"本地","type":3,"api":"csp_Local"},
-		{"key":"PushShare","name":"我的资源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/pushshare.txt$$$db$$$1",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
+		{"键":"本地","名称":"本地","类型":3,"api":"csp_Local"},
+		{"键":"PushShare","名称":"我的资源分享","类型":3,"api":"csp_PushShare","可搜索":1,"快速搜索":1,"可更改":1,"可过滤":0,"超时":60,"外部":"。/lib/tokenm.JSON$$$./lib/pushshare.txt$$$db$$$1",
+			"样式":{
+				"类型":"列表",
+				"比率":1.1
 			}
 		},
-		{"key":"AliShare","name":"阿里云盘影视分享","type":3,"api":"csp_AliShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/alishare.txt$$$db$$$1",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
+		{"键":"AliShare","名称":"阿里云盘影视分享","类型":3,"api":"csp_AliShare","可搜索":1,"快速搜索":1,"可更改":1,"可过滤":0,"超时":60,"外部":"。/lib/tokenm.JSON$$$./lib/alishare.txt$$$db$$$1",
+			"样式":{
+				"类型":"列表",
+				"比率":1.1
 			}
 		},
-		{"key":"AliShareEBook","name":"阿里云盘书籍分享","type":3,"api":"csp_AliShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/alishare.ebook.txt$$$db$$$1",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
+		{"键":"AliShareEBook","名称":"阿里云盘书籍分享","类型":3,"api":"csp_AliShare","可搜索":0,"快速搜索":0,"可更改":0,"可过滤":0,"超时":60,"外部":"./lib/tokenm。JSON$$$./lib/alishare.ebook.txt$$$db$$1",
+			"样式":{
+				"类型":"列表",
+				"比率":1.1
 			}
 		},
-		{"key":"QuarkShare","name":"夸克云盘分享","type":3,"api":"csp_QuarkShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/quarkshare.txt",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
+		{"键":"QuarkShare","名称":"夸克云盘分享","类型":3,"api":"csp_QuarkShare","可搜索":0,"快速搜索":0,"可更改":0,"可过滤":0,"超时":60,"外部":"./lib/tokenm.json$$$./lib/quarkshare.txt",
+			"样式":{
+				"类型":"列表",
+				"比率":1.1
 			}
 		},
-		{"key":"ThunderShare","name":"迅雷云盘分享","type":3,"api":"csp_ThunderShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/thundershare.txt",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
+		{"键":"ThunderShare","名称":"迅雷云盘分享","类型":3,"api":"csp_ThunderShare","可搜索":0,"快速搜索":0,"可更改":0,"可过滤":0,"超时":60,"外部":"./lib/tokenm.json$$$./lib/thundershare.txt",
+			"样式":{
+				"类型":"列表",
+				"比率":1.1
 			}
 		},
-		{"key":"PikPakShare","name":"PikPak分享","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/pikpakclass.json$$$./lib/pikpakclass.json.txt.gz",
-			"style": {
-				"type": "list",
-				"ratio": 1.1
+		{"键":"PikPakShare","名称":"PikPak分享","类型":3,"api":"csp_PikPakShare","可搜索":1,"快速搜索":1,"可更改":1,"可过滤":0,"超时":60,"外部":"./lib/tokenm。JSON$$$./lib/pikpakclass。JSON$$$./lib/pikpakclass。JSON.文本。GZ",
+			"样式":{
+				"类型":"列表",
+				"比率":1.1
 			}
 		},
 		{"key":"SambaShare","name":"Samba分享","type":3,"api":"csp_SambaShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/sambashare.txt"},
